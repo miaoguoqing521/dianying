@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141931"
+    tools:context=".view.movies.RoomActivity">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_15">
+
+        <ImageView
+        android:id="@+id/room_back"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:layout_marginLeft="@dimen/dp_28"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@drawable/backk" />
+
+        <TextView
+        android:id="@+id/room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_99"
+        android:layout_marginTop="@dimen/dp_20"
+        android:textColor="#d8d8d8"
+        android:textSize="16sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/real"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout">
+
+        <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+            android:id="@+id/room_VideoPlayer"
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="@dimen/dp_120"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"/>
+
+        <TextView
+            android:layout_width="@dimen/dp_280"
+            android:layout_height="@dimen/dp_104"
+            android:layout_below="@id/room_VideoPlayer"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_gradient" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/room_movieSeat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_250"
+            android:layout_marginLeft="@dimen/dp_38"
+            android:layout_marginTop="@dimen/dp_170"
+            android:layout_marginRight="@dimen/dp_44" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/real"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <TextView
+            android:id="@+id/room_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/room_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_80"
+            android:layout_below="@id/room_time"
+            ></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_purchaseOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/paybutton"
+        android:text="立即下单"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/room_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/choosebutton"
+        android:text="请先选座"
+        android:textColor="#fff" />
+</RelativeLayout>

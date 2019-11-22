@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#141931"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.movies.BuyMovieActivity">
+
+    <ImageView
+    android:layout_width="@dimen/dp_16"
+    android:layout_height="@dimen/dp_16"
+    android:src="@drawable/backk"
+    android:id="@+id/buymovie_back"
+    android:layout_marginLeft="@dimen/dp_25"
+    android:layout_marginTop="@dimen/dp_30"/>
+
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayer
+        android:layout_width="460dp"
+        android:layout_height="@dimen/dp_200"
+        android:layout_marginTop="@dimen/dp_55"
+        android:id="@+id/buymovie_img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_centerHorizontal="true"
+        android:text="电影名称"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold"
+        android:id="@+id/buymovie_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_240"
+        android:text="时长"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buy_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_263"
+        android:text="12332"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_127"
+        android:layout_marginTop="@dimen/dp_240"
+        android:text="评分"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buy_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_127"
+        android:layout_marginTop="@dimen/dp_263"
+        android:text="56454"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_216"
+        android:layout_marginTop="@dimen/dp_240"
+        android:text="导演"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/buy_dirtor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_216"
+        android:layout_marginTop="@dimen/dp_263"
+        android:text="798879"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_300"
+        android:id="@+id/rele"
+        android:background="#1c2243">
+
+        <TextView
+            android:id="@+id/buy_Range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_12"
+            android:text="地区"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/buy_schdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_112"
+            android:layout_marginTop="@dimen/dp_12"
+            android:text="排期"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/buy_Sizer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_230"
+            android:layout_marginTop="@dimen/dp_12"
+            android:text="筛选"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/buy_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rele"
+        android:layout_marginTop="@dimen/dp_10"/>
+</RelativeLayout>

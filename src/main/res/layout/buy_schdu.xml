@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c2243"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/schdu_Mond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Tues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Wednes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Thurs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Fri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Sat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/schdu_Week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_13"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+</LinearLayout>

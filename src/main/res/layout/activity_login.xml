@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zcbj"
+    tools:context=".view.activity.LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="@dimen/dp_24">
+
+        <EditText
+            android:id="@+id/login_account"
+            android:singleLine="true"
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:background="@drawable/login_ed"
+            android:text="18832053221@163.com"
+            android:textColorHint="#999999"
+            android:textColor="@color/colorShape"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:singleLine="true"
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_below="@+id/login_account"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/login_ed"
+            android:inputType="textPassword"
+            android:text="123"
+            android:textColorHint="#999999"
+            android:textColor="@color/colorShape"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/login_wjpossword"
+            android:layout_width="@dimen/dp_96"
+            android:layout_height="@dimen/dp_44"
+            android:layout_alignTop="@+id/login_password"
+            android:layout_marginRight="@dimen/dp_2"
+            android:background="@drawable/but_bjys_write"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_240">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_togather"
+                android:text="忘记密码"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tz_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_password"
+            android:layout_marginLeft="@dimen/dp_220"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="暂无帐号 立即注册"
+            android:textColor="#999999"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/but_login"
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:layout_below="@id/tz_registered"
+            android:layout_marginTop="@dimen/dp_12"
+            android:background="@drawable/but_bjys"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_24">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1_longn"
+            android:layout_width="@dimen/dp_93"
+            android:layout_height="@dimen/dp_3"
+            android:layout_below="@id/but_login"
+            android:layout_marginLeft="@dimen/dp_68"
+            android:layout_marginTop="@dimen/dp_29"
+            android:background="#ffffff"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/but_login"
+            android:layout_marginLeft="@dimen/dp_168"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="或"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view2_longn"
+            android:layout_width="@dimen/dp_93"
+            android:layout_height="@dimen/dp_3"
+            android:layout_below="@id/but_login"
+            android:layout_marginLeft="@dimen/dp_188"
+            android:layout_marginTop="@dimen/dp_29"
+            android:background="#ffffff"></View>
+
+        <LinearLayout
+            android:id="@+id/but_wechat"
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:layout_below="@id/view2_longn"
+            android:layout_marginTop="@dimen/dp_28"
+            android:background="@drawable/but_bjys_green"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_24">
+
+            <ImageView
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:src="@drawable/weixin_copy_3" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

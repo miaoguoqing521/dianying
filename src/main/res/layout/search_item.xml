@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_101"
+        android:id="@+id/search_img"/>
+    <TextView
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_20"
+        android:layout_toRightOf="@id/search_img"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:textColor="#fff"
+        android:id="@+id/search_name"/>
+    <TextView
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_17"
+        android:layout_toRightOf="@id/search_img"
+        android:textColor="#fff"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_below="@id/search_name"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/search_daoyan"/>
+    <TextView
+        android:layout_width="@dimen/dp_148"
+        android:layout_height="@dimen/dp_17"
+        android:textColor="#fff"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_toRightOf="@id/search_img"
+        android:layout_below="@id/search_daoyan"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/search_zhuyan"/>
+    <TextView
+        android:layout_width="@dimen/dp_66"
+        android:layout_height="@dimen/dp_17"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/search_img"
+        android:layout_below="@id/search_zhuyan"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/search_pingfen"/>
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_20"
+        android:layout_toRightOf="@id/search_pingfen"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_80"
+        android:background="#F44336"
+        android:text="购票"
+        android:textColor="#fff" />
+</RelativeLayout>

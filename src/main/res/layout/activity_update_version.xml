@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#141931"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myactivity.setactivity.UpdateVersion">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/sp_16"
+            android:layout_height="@dimen/sp_16"
+            android:src="@drawable/backk"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_36"
+            android:id="@+id/update_back"/>
+
+        <TextView
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="@dimen/dp_22"
+            android:textColor="#fff"
+            android:text="版本更新"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="@dimen/dp_37"
+            android:layout_marginLeft="@dimen/dp_148"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:src="@drawable/pio"
+        android:layout_marginTop="@dimen/dp_110"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="@dimen/dp_56"
+        android:layout_height="@dimen/dp_20"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:text="最新版本"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_17"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:text="V  2.0"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_30"
+        android:text="立即更新"
+        android:textColor="#fff"
+        android:background="@drawable/update_yuan"
+        android:layout_gravity="center"
+        android:id="@+id/update_btn"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:max="100"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="adada"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/dp_300"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/progress_tv"/>
+</LinearLayout>

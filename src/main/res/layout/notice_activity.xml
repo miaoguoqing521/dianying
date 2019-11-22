@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#141931"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/make_back"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:layout_marginLeft="@dimen/dp_34"
+        android:layout_marginTop="@dimen/dp_40"
+        android:src="@drawable/backk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_148"
+        android:layout_marginTop="@dimen/dp_37"
+        android:text="我的预约"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/notice_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginRight="@dimen/dp_24" />
+</RelativeLayout>

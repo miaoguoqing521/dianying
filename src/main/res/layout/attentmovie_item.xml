@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="@dimen/dp_150"
+        android:id="@+id/attentmovie_img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/attentmovie_img"
+        android:id="@+id/attentmovie_tv1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/attentmovie_img"
+        android:layout_below="@id/attentmovie_tv1"
+        android:textColor="#fff"
+        android:layout_marginTop="@dimen/dp_5"
+        android:id="@+id/attentmovie_tv2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_toRightOf="@id/attentmovie_img"
+        android:layout_below="@id/attentmovie_tv2"
+        android:layout_marginTop="@dimen/dp_5"
+        android:id="@+id/attentmovie_tv3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/attentmovie_img"
+        android:textColor="#fff"
+        android:layout_below="@id/attentmovie_tv3"
+        android:layout_marginTop="@dimen/dp_5"
+        android:id="@+id/attentmovie_tv4"/>
+
+</RelativeLayout>
+</LinearLayout>

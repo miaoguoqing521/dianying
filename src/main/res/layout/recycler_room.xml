@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_24"
+    android:background="#1c2243">
+
+    <TextView
+        android:id="@+id/recycler_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recycler_Begintime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recycler_endtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_95"
+        android:layout_marginTop="@dimen/dp_35"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+</RelativeLayout>

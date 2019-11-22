@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/dp_88"
+        android:layout_height="@dimen/dp_108"
+        android:id="@+id/recy2_img"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:id="@+id/recy2_tv"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recy2_tv"
+            android:textColor="#fff"
+            android:id="@+id/recy2_tvv"
+            android:layout_marginTop="@dimen/dp_20"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recy2_tvv"
+            android:textColor="#fff"
+            android:id="@+id/recy2_tvvv"
+            android:layout_marginTop="@dimen/dp_20"/>
+        <Button
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_20"
+            android:textColor="#fFF"
+            android:background="@drawable/qqqs"
+            android:layout_marginLeft="@dimen/dp_170"
+            android:layout_marginTop="@dimen/dp_75"
+            android:text="预约"
+            android:id="@+id/recy2_btn"/>
+    </RelativeLayout>
+
+</LinearLayout>

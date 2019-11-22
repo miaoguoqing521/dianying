@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/zcbj"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/name_regin"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_44"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_300"
+        android:hint="请输入昵称"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_12"
+        android:paddingBottom="@dimen/dp_12"
+        android:textColor="#fff"
+        android:textColorHint="#999999"
+        android:background="@drawable/login_ed"/>
+
+        <EditText
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:id="@+id/email_regin"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#999999"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_12"
+            android:layout_below="@id/name_regin"
+            android:background="@drawable/login_ed"
+            android:hint="请输入邮箱账号"/>
+
+        <EditText
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#999999"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_12"
+            android:layout_below="@id/email_regin"
+            android:background="@drawable/login_ed"
+            android:id="@+id/set_regin"
+            android:hint="请设置密码"/>
+        <EditText
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:background="@drawable/login_ed"
+            android:textColorHint="#999999"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_12"
+            android:layout_below="@id/set_regin"
+            android:id="@+id/verification"
+            android:hint="请输入验证码"/>
+
+        <LinearLayout
+            android:id="@+id/regin_wjpossword"
+            android:layout_width="@dimen/dp_96"
+            android:layout_height="@dimen/dp_44"
+            android:layout_alignTop="@+id/verification"
+            android:background="@drawable/but_bjys_write"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_240">
+
+            <TextView
+                android:id="@+id/regin_togather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取验证码"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/regin_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/regin_wjpossword"
+            android:layout_marginLeft="@dimen/dp_250"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="已有账号 立即登录"
+            android:textColor="#999999"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/but_regin"
+            android:layout_width="@dimen/dp_312"
+            android:layout_height="@dimen/dp_44"
+            android:layout_below="@id/regin_registered"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/but_bjys"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/dp_30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

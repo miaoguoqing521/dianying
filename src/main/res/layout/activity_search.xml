@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#141931"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SearchActivity">
+
+    <ImageView
+        android:layout_width="@dimen/dp_22"
+        android:layout_height="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_40"
+        android:id="@+id/search_back"
+        android:src="@drawable/backk"/>
+
+    <EditText
+        android:id="@+id/seach_view"
+        android:layout_width="@dimen/dp_230"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_86"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/searcht"
+        android:paddingLeft="@dimen/dp_20"
+        android:hint="请输入要查询的电影" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_95"
+        android:layout_marginRight="@dimen/dp_24" />
+</RelativeLayout>

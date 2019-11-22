@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/recy1_img"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_130" />
+
+    <TextView
+        android:id="@+id/recy1_tv"
+        android:layout_width="wrap_content"
+       android:layout_gravity="center"
+        android:text="aaaaa"
+        android:layout_height="wrap_content"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/recy1_btn"
+        android:layout_width="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:textColor="#fFF"
+        android:background="@drawable/qqqs"
+        android:text="购票" />
+</LinearLayout>

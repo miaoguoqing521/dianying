@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="#141931"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_121"
+        android:layout_gravity="center"
+        android:background="#1c2243"
+        android:layout_marginTop="@dimen/dp_20">
+        
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="@dimen/dp_84"
+            android:layout_height="@dimen/dp_101"
+            app:roundedCornerRadius="@dimen/dp_4"
+            android:id="@+id/schedu_sim"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:id="@+id/schedu_name"
+            android:layout_toRightOf="@id/schedu_sim"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/schedu_sim"
+            android:layout_below="@id/schedu_name"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:id="@+id/schedu_doctor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/schedu_sim"
+            android:layout_below="@id/schedu_doctor"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:id="@+id/schedu_zhuyan"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_12"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/schedu_sim"
+            android:layout_below="@id/schedu_zhuyan"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:id="@+id/schedu_pingfen"/>
+
+        <Button
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_20"
+            android:background="@drawable/qqqs"
+            android:text="购票"
+            android:textColor="#ffff"
+            android:layout_toRightOf="@id/schedu_pingfen"
+            android:layout_marginLeft="@dimen/dp_77"
+            android:layout_marginTop="@dimen/dp_91"
+            android:layout_marginRight="@dimen/dp_10"
+            android:id="@+id/shceduling_btn"/>
+    </RelativeLayout>
+    
+</LinearLayout>

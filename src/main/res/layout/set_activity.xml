@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#141931"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_16"
+        android:background="@drawable/backk"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_28"
+        android:id="@+id/set_back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="设置"
+        android:layout_marginTop="@dimen/dp_37"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_88"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/update">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="清除缓存"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_14"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_15"
+            android:id="@+id/set_clear"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本更新"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_14"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_54"/>
+        <ImageView
+            android:layout_width="@dimen/dp_7"
+            android:layout_height="@dimen/dp_12"
+            android:background="@drawable/back"
+            android:layout_marginTop="@dimen/dp_58"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:id="@+id/set_update"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="@dimen/dp_313"
+        android:layout_height="@dimen/dp_54"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_178"
+        android:background="@drawable/update">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="重置密码"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/set_reset"
+            android:layout_width="@dimen/dp_7"
+            android:layout_height="@dimen/dp_12"
+            android:layout_marginLeft="@dimen/dp_285"
+            android:layout_marginTop="@dimen/dp_25"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/set_btn"
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_54"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_242"
+        android:background="@drawable/update"
+        android:text="退出登录"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+</RelativeLayout>
